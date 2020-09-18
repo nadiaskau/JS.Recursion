@@ -17,11 +17,12 @@ let fibo = function(n){
     if(n<=1){
         return n;
     }
-    return  fibo(n-1) + fibo(n-2);
 
+    console.log(n);
+    return  fibo(n-1) + fibo(n-2);
 }
 
-console.log(fibo(7,7));
+console.log('Fibo: ' + fibo(7));
 
 let pow = function(r,e){
      
